@@ -12,18 +12,15 @@ Edycje i stylizowanie plików list, news i mail potraktuj jako zadanie dodatkowe
 ## Zadanie 1. Navigacja
 Zmień i ostyluj :
 - top-header: 
-  składa się na dwa kontenery, uniwersity-container i user container.
+  składa się z dwóch kontenerów: uniwersity-container i user container.
   top-header jako rodzic otrzymał display: flex a jego dzieci powinny być ustawione na przez justify-content tak, żeby między nimi była odpowiednia przestrzeń
   (justify-content , https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
   Obrazek użytkownika i uniwersytetu jest placeholderem, trzeba go poprawnie ostylować - aby uzyskać koło, ustawiamy border-radius: 50%;
-  ostylować i ustawić nazwy do tych części headera (ustawić np. przy użyciu display: flex dla kontenerów i użyć flex-direction)), dodać ikonkę strzałki w dół przy użytkowniku.
+  Należy ostylować i ustawić nazwy do tych części headera (ustawić np. przy użyciu display: flex dla kontenerów i użyć flex-direction)), dodać ikonkę strzałki w dół przy użytkowniku, zmienić kolor tła, ustawić paddingi i marginy.
   
        (Ikony są już zaimportowane jako font w sekcji html <head>. Są to ikony z material.io i ich pełna lista znajduje się pod adresem: https://material.io/tools/icons/?icon=drafts&style=baseline )
-  zmienić kolor tła, ustawić paddingi i marginy
 - hamburger : jest niekompletny, ma nieodpowiedni kolor, nie jest wyśrodkowany.
-- left-navbar : zamiast nazw powinny być ikony. 
-   
-   Rozmieść je przy użyciu flexboxa, zmień paddingi i kolory.
+- left-navbar : zamiast nazw powinny być ikony. Rozmieść je przy użyciu flexboxa, zmień paddingi i kolory.
 
 
  ## Zadanie 2. Kalendarz
@@ -42,7 +39,7 @@ Klasy **event-1**, **event-2** i **event-3** są klasami, które możesz znaleź
 
 - Ostyluj górną nawigację kalendarza **calendar-header** i jego dzieci, calendar-title, calendar-month i calendar-type
 
-##  ☆ Zadanie 3. Podstrony
+##  ☆ Podstrony
     
 Jeśli zrobiłeś wczesniejsze zadania, możesz przejść do modyfikacji podstron. 
 Nawigacja jest linkowana poprzez znacznik html <**a** href="news.html"> i po kliknięciu zostajesz przeniesiony do pliku news.html. 
