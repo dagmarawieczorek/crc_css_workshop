@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script type="text/javascript" src="components//calendar.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tu daj tytuł</title>
+</head>
+
+<body class="main-content">
+
+    <nav class="left-navbar">
+        <div class="hamburger">
+            <div></div>
+            <div></div>
+        </div>
+        <ul class="navigation-icons-container">
+            <li><a href="index.html">calendar</a></li>
+            <li><a href="list.html">
+                    <i class="material-icons">list</i>
+            </a></li>
+            <li><a href="mail.html">mail</a></li>
+            <li><a href="news.html">news</a></li>
+        </ul>
+    </nav>
+
+    <div class="right-container">
+
+        <header class="top-header">
+            <div class="university-container">
+                <img class="university-icon" src="https://via.placeholder.com/50">
+                <h4>Nazwa uniwersytetu</h4>
+            </div>
+
+            <div class="user-container">
+                <img class="user-icon" src="https://via.placeholder.com/50">
+                <h5>Imie Nazwisko</h5>
+                <!-- ikona -->
+            </div>
+        </header>
+
+        <div class="content">
+            <section class="calendar" id="calendar">
+
+                <div class="calendar-header">
+                    <div class="calendar-title">
+                        <h2>Kalendarz</h2>
+                    </div>
+
+                    <div class="calendar-month">
+                        <h2>Styczeń</h2>
+                    </div>
+
+                    <div class="calendar-type">
+                        <span>Miesiąc</span>
+                        <span class="active">Tydzień</span>
+                        <span>Dzień</span>
+                    </div>
+
+                </div>
+
+                <br />
+                <div class="cd-schedule">
+                    <div class="timeline">
+                        <ul>
+                            <li><span>08:00</span></li>
+                            <li><span>08:30</span></li>
+                            <li><span>09:00</span></li>
+                            <li><span>09:30</span></li>
+                            <li><span>10:00</span></li>
+                            <li><span>10:30</span></li>
+                            <li><span>11:00</span></li>
+                            <li><span>11:30</span></li>
+                            <li><span>12:00</span></li>
+                            <li><span>12:30</span></li>
+                            <li><span>13:00</span></li>
+                            <li><span>13:30</span></li>
+                            <li><span>14:00</span></li>
+                            <li><span>14:30</span></li>
+                            <li><span>15:00</span></li>
+                            <li><span>15:30</span></li>
+
+                        </ul>
+                    </div> <!-- .timeline -->
+
+                    <div class="events">
+                        <ul>
+                            <li class="events-group">
+                                <div class="top-info">
+                                    <span>Pon</span>
+                                </div>
+
+                                <ul>
+                                    <li class="single-event" data-start="09:30" data-end="10:30"
+                                        data-content="event-abs-circuit" data-event="event-1">
+                                        <a href="#0">
+                                            <em class="event-name">Programowanie obiektowe</em>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="events-group">
+                                <div class="top-info">
+                                    <span>Wt</span>
+                                </div>
+
+                                <ul>
+                                    <li class="single-event" data-start="8:45" data-end="10:45" data-content="event-1"
+                                        data-event="event-3">
+                                        <a href="#0">
+                                            <em class="event-name">Zarządzanie</em>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="events-group">
+                                <div class="top-info">
+                                    <span>Śr</span>
+                                </div>
+
+                                <ul>
+                                    <li class="single-event" data-start="09:00" data-end="10:15"
+                                        data-content="event-restorative-yoga" data-event="event-4">
+                                        <a href="#0">
+                                            <em class="event-name">Matematyka dyskretna</em>
+                                            <span class="lecturer">PO</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="single-event" data-start="12:00" data-end="13:45"
+                                        data-content="event-rowing-workout" data-event="event-2">
+                                        <a href="#0">
+                                            <em class="event-name">Chemia fizyczna</em>
+                                            <span class="lecturer">KO</span>
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                            <li class="events-group">
+                                <div class="top-info">
+                                    <span>Czw</span>
+                                </div>
+
+                                <ul>
+
+                                    <li class="single-event" data-start="12:00" data-end="13:45"
+                                        data-content="event-restorative-yoga" data-event="event-4">
+                                        <a href="#0">
+                                            <em class="event-name">Matematyka dyskretna</em>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="events-group">
+                                <div class="top-info">
+                                    <span>Pt</span>
+                                </div>
+
+                                <ul>
+                                    <li class="single-event" data-start="12:30" data-end="14:00"
+                                        data-content="event-abs-circuit" data-event="event-1">
+                                        <a href="#0">
+                                            <em class="event-name">Programowanie obiektowe</em>
+                                        </a>
+                                    </li>
+
+                                    <li class="single-event" data-start="10:45" data-end="11:45" data-content="event-1"
+                                        data-event="event-3">
+                                        <a href="#0">
+                                            <em class="event-name">Zarządzanie</em>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="events-group">
+                                <div class="top-info">
+                                    <span>Sob</span>
+                                </div>
+
+                                <ul>
+                                </ul>
+                            </li>
+                            <li class="events-group">
+                                <div class="top-info">
+                                    <span>Niedz</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="event-modal">
+                        <header class="header">
+                            <div class="content">
+                                <span class="event-date"></span>
+                                <h3 class="event-name"></h3>
+                            </div>
+
+                            <div class="header-bg"></div>
+                        </header>
+
+                        <div class="body">
+                            <div class="event-info"></div>
+                            <div class="body-bg"></div>
+                        </div>
+
+                        <a href="#0" class="close">Close</a>
+                    </div>
+
+                    <div class="cover-layer"></div>
+                </div>
+            </section>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

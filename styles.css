@@ -1,0 +1,165 @@
+@import url("./styles/calendar.css");
+
+
+/* 
+*{ oznacza zastosowanie do wszystkich elementów html, 
+    poniżej znajduje się reset styli, co nam daje?
+> Eliminacja formatowania słabej jakości
+Dzięki temu usuniemy większość denerwujących ustawień przeglądarek (np. domyślny obrys pól w formularzach).
+
+>Eliminacja stylów domyślnych
+Przygotuje to nam projekt do identycznej pracy we wszystkich przeglądarkach.
+ To my będziemy mieć kontrolę nad formatowaniem CSS.
+*/
+  
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    box-sizing: border-box;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center
+}
+
+.top-header {
+    display: flex;
+    justify-content: center;
+    flex:1;
+    /* bordery są przydatne nie tylko przy docelowym stylowaniu,
+    przydają się również do ustawiania naszych htmlowych klocków, 
+    wyznaczają ich granice - później je usuń */
+    border: 1px solid blue;
+    position: sticky;
+    top: 0;
+    /* margin-left: 10%; */
+    background: #669999;
+    z-index: 9;
+    padding: 24px;
+    height:10vh;
+}
+
+.left-navbar {
+    flex: 0.8;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #669999;
+    z-index: 10;
+    width:10%;
+    height: 100vh;
+}
+
+.right-container {
+    width:100%;
+    margin-left:10%;
+}
+
+.university-container {
+
+}
+
+.university-icon {
+    border-radius: 30%;
+}
+
+.user-icon {
+    border-radius: 17%;
+}
+
+
+.hamburger{
+    height:10vh;
+    padding: 10px;
+    border: 1px solid green;
+}
+
+.hamburger>div {
+    width: 35px;
+    height: 5px;
+    background-color: violet;
+    margin: 6px 0;
+}
+
+.content {
+    border: 1px solid red;
+    height:90vh;
+    padding: 48px;
+}
+
+.navigation-icons-container{
+    
+}
+
+.calendar-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cd-schedule{
+    overflow-y: scroll;
+    height: 65vh;
+    width:100%;
+}
+
+.lecturer{
+    display: block;
+    padding: 10px;
+    width: 44px;
+    background: rgba(255, 255, 255, 0.4);
+    color: #fff;
+    margin: 4px;
+    border-radius: 4px;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+}
+
+.section>h2{
+    font-size:40px;
+    font-weight: bolder;  
+    padding: 16px;
+}
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+    src: local('Material Icons'),
+      local('MaterialIcons-Regular'),
+      url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+      url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+      url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+  }
+
+  .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
